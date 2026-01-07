@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #74ebd5, #9face6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input.error, select.error {
+  border-color: red;
+}
+
+small {
+  color: red;
+  visibility: hidden;
+}
+
+#strength {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #5a67d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
